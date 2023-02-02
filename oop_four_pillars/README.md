@@ -60,7 +60,7 @@ The core purpose of using this concept is it makes the creation of functions eas
 
 # Where can Lambda functions be useful?
 
-- They reduce he number of lines of code in comparison to normal python functions.  
+- They reduce the number of lines of code in comparison to normal python functions.  
 
 
 - They are generally used when a function is only needed for a short period of time.  
