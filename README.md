@@ -15,14 +15,14 @@ we are making templates when we create a class
 To name it use snake case eg. WonderDog # start with capital  
 
 class Dog:
-
+```python
     animal_kind = "canine" # class variable # what is the scope of this variable?
     # lets give it a behaviour
 
     def bark(self): # class method, even though this looks like a function but because it is inside the scope of the class it then becomes a method
         # print(self.animal_kind) # we go into the class to access the variable
         return "woof"
-
+```
 
 
 ### self - "I'm referring to the current class.  
