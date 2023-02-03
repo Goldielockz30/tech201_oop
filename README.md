@@ -3,15 +3,16 @@ tech201_oop
 
 # Object-Oriented Programming (OOP)
 
-# Everything in OOP is an object and objects are modeled against real world objects.
+### Everything in OOP is an object and objects are modeled against real world objects.
 
-# Classes are the templates we use to create objects
-# Classes are a way of bringing both the data and functionality of our code together
+Classes are the templates we use to create objects  
+Classes are a way of bringing both the data and functionality of our code together
 
 
-# we are making templates when we create a class
-# Create a class
-# To name it use snake case eg. WonderDog # start with capital
+we are making templates when we create a class  
+#### Create a class
+
+To name it use snake case eg. WonderDog # start with capital  
 
 class Dog:
 
@@ -22,15 +23,18 @@ class Dog:
         # print(self.animal_kind) # we go into the class to access the variable
         return "woof"
 
-# self - "I'm referring to the current class.
-# def bark(self): # this refers to the class dog
-# look at this object for this animal variable and look into the dog class
 
-#print(Dog.animal_kind) # access the object animal_kind
 
- # print(Dog.animal_kind()) # this does not work #ERROr
+### self - "I'm referring to the current class.  
+```python
+def bark(self): # this refers to the class dog    
+# look at this object for this animal variable and look into the dog class  
 
- # Instantiation of a class, # Creating or making an object from a class
+# print(Dog.animal_kind) # access the object animal_kind
+
+# print(Dog.animal_kind()) # this does not work #ERROr
+
+# Instantiation of a class, # Creating or making an object from a class
 
 fido = Dog()
 lassie = Dog()
@@ -85,8 +89,8 @@ print(fido.colour)
 # to specify things when we create an object we use
 # __init__
 # Initialising a class with variables is good practice. It is possible to set variables
-
-
+```
+```python
 # Methods
 
 class MethodExamples:
@@ -118,19 +122,19 @@ x = MethodExamples()
 print(x.get_this_can_be_accessed_easily()) # for methods we use double underscore
 x.set_this_can_be_accessed_easily("I have been changed!")
 print(x.get_this_can_be_accessed_easily())  # we don't want to overwrite everything
-
+```
 
 # __name__ and __main_
 
-# to use these we need two seperate files
+### To use these we need two seperate files
 
-# in this case name = main
+in this case name = main
 
 #
 
 
 # mod 1
-
+```python
 # print(__name__)
 
 # print("This is mod1's name -> " + __name__)
@@ -142,7 +146,9 @@ if __name__ == "__main__": # the name cannot be imported it only runs this withi
     main()
     # to understand where the code is being run from and determine where you would want it to run
  # this helps you to have more control over what gets executed and what doesnt
+```
 
 # mod 2
-
+```python
 print("This is mod2's name -> " + __name__)
+```
